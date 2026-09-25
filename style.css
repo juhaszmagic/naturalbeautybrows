@@ -232,4 +232,4 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 .hero-sub{margin-top:18px;color:#fff;font-family:var(--head);font-weight:400;font-size:clamp(.72rem,1.4vw,.95rem);letter-spacing:.24em;text-transform:uppercase;line-height:1.9}
 .hero-sub span{margin:0 .5em;opacity:.8}
 .hero-sub b{font-weight:400;white-space:nowrap}
-@media(max-width:600px){.hero-sub span{display:none}.hero-sub b{display:block}}
+@media(max-width:600px){.hero-sub{font-size:.68rem;letter-spacing:.14em}.hero-sub .d2{display:none}.hero-sub .l3{display:block}}
