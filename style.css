@@ -233,3 +233,7 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 .hero-sub span{margin:0 .5em;opacity:.8}
 .hero-sub b{font-weight:400;white-space:nowrap}
 @media(max-width:600px){.hero-sub{font-size:.68rem;letter-spacing:.14em}.hero-sub .d2{display:none}.hero-sub .l3{display:block}}
+/* Rólam: szalon galéria 5 képpel */
+.gal-szalon{display:flex;flex-wrap:wrap;justify-content:center}
+.gal-szalon img{width:calc((100% - 56px)/5)}
+@media(max-width:960px){.gal-szalon img{width:calc((100% - 14px)/2)}}
