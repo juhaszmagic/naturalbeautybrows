@@ -214,3 +214,9 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 #munkaim .gal{display:flex;flex-wrap:wrap;justify-content:center}
 #munkaim .gal img{aspect-ratio:4/5;width:calc((100% - 56px)/5)}
 @media(max-width:960px){#munkaim .gal img{width:calc((100% - 14px)/2)}}
+/* telefon: a kép maga adja a méretet (iOS Safari miatt) */
+@media(max-width:960px){
+  .split .media,.ready .media{aspect-ratio:auto;min-height:0;width:100%;height:auto}
+  .split .media img,.ready .media img{position:static;display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+  .split .media .tanbox{position:static!important;aspect-ratio:4/3}
+}
