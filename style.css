@@ -223,3 +223,6 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 /* Rólam: Anita fotója – a fej teteje ne vágódjon le */
 .split .media img[src$="anita.jpg"]{object-position:50% 0%}
 @media(max-width:960px){.split .media img[src$="anita.jpg"]{aspect-ratio:auto;height:auto}}
+/* főoldali nyitókép gépen: a fej teteje ne vágódjon le */
+@media(min-width:961px){.hero img{object-position:50% 0%}}
+.hero picture{position:absolute;inset:0}
