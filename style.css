@@ -226,3 +226,10 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 /* főoldali nyitókép gépen: a fej teteje ne vágódjon le */
 @media(min-width:961px){.hero img{object-position:50% 14%}}
 .hero picture{position:absolute;inset:0}
+/* nyitókép: cím + alcím */
+.hero .hero-text{position:relative;z-index:2;padding:0 24px 12vh;max-width:860px}
+.hero .hero-text h1{padding:0;margin:0 auto}
+.hero-sub{margin-top:18px;color:#fff;font-family:var(--head);font-weight:400;font-size:clamp(.72rem,1.4vw,.95rem);letter-spacing:.24em;text-transform:uppercase;line-height:1.9}
+.hero-sub span{margin:0 .5em;opacity:.8}
+.hero-sub b{font-weight:400;white-space:nowrap}
+@media(max-width:600px){.hero-sub span{display:none}.hero-sub b{display:block}}
