@@ -237,3 +237,5 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 .gal-szalon{display:flex;flex-wrap:wrap;justify-content:center}
 .gal-szalon img{width:calc((100% - 28px)/3)}
 @media(max-width:960px){.gal-szalon img{width:calc((100% - 14px)/2)}}
+/* Rólam: telefonon a fotó a szöveg fölött */
+@media(max-width:960px){.split.about .text{order:1}}
