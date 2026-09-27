@@ -247,3 +247,9 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 .legal li{margin-bottom:6px}
 .legal a{color:var(--brown)}
 .legal .upd{font-size:.85rem;opacity:.75}
+/* Kapcsolat: foglalás gombok az űrlap helyén */
+.cta-box{background:var(--bg);border-radius:26px;padding:40px 36px;display:flex;flex-direction:column;align-items:flex-start;gap:14px;align-self:start}
+.cta-box h2{margin-bottom:0}
+.cta-box p{margin-bottom:8px}
+.cta-box .btn{width:100%;max-width:340px}
+@media(max-width:520px){.cta-box{padding:30px 22px}.cta-box .btn{letter-spacing:.1em;font-size:.76rem;padding:13px 16px}}
