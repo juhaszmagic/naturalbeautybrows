@@ -267,3 +267,22 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 .hero-cta{margin-top:22px}
 .hero-cta .btn{padding:10px 26px;font-size:.74rem;letter-spacing:.18em}
 @media(max-width:600px){.hero-cta{margin-top:16px}.hero-cta .btn{padding:9px 22px;font-size:.7rem}}
+/* Klasszikus vs. koreai lifting összehasonlítás */
+.cmp{margin-top:40px;border-top:1px solid #d8cfc6}
+.cmp-row{display:grid;grid-template-columns:1fr 1.6fr 1.6fr;gap:28px;padding:18px 0;border-bottom:1px solid #d8cfc6}
+.cmp-k{font-family:var(--head);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brown)}
+.cmp-v{font-size:.95rem}
+.cmp-head .cmp-v{font-family:var(--head);font-size:1.25rem;color:var(--ink)}
+.cmp-head .cmp-v a{text-decoration:none}
+.cmp-head .cmp-v a:hover{color:var(--brown)}
+.cmp-row:last-child .cmp-v{font-family:var(--head);font-weight:500;font-size:1.05rem}
+.cmp-note{background:var(--alt);border-radius:26px;padding:30px 34px;margin-top:40px}
+.cmp-note h3{font-size:1.2rem;color:var(--brown);margin-bottom:8px}
+.cmp-note p{font-size:.95rem}
+@media(max-width:760px){
+  .cmp-head{display:none}
+  .cmp-row{grid-template-columns:1fr 1fr;gap:10px 16px}
+  .cmp-k{grid-column:1/-1}
+  .cmp-v::before{content:attr(data-l);display:block;font-family:var(--head);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--taupe);margin-bottom:4px}
+  .cmp-note{padding:24px 22px}
+}
