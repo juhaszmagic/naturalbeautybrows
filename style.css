@@ -253,3 +253,14 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 .cta-box p{margin-bottom:8px}
 .cta-box .btn{width:100%;max-width:340px}
 @media(max-width:520px){.cta-box{padding:30px 22px}.cta-box .btn{letter-spacing:.1em;font-size:.76rem;padding:13px 16px}}
+/* Főoldal: foglalásra ösztönzés */
+.hero-cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:14px}
+.hero-cta .btn{padding:14px 40px;font-size:.85rem}
+.hero-rating{display:inline-flex;align-items:center;gap:8px;color:#fff;text-decoration:none;font-family:var(--head);font-size:.85rem}
+.hero-rating b{font-weight:500;font-size:1rem}
+.hero-rating i{font-style:normal;color:#f3d28a;letter-spacing:.08em}
+.hero-rating span{text-decoration:underline;text-underline-offset:3px;opacity:.95}
+.quotes3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:960px){.quotes3{grid-template-columns:1fr}}
+@media(max-width:600px){.hero .hero-text{padding-bottom:7vh}.hero-cta{margin-top:18px}.hero-cta .btn{padding:12px 30px;font-size:.8rem}}
+.quotes3 .quote:last-child:nth-child(odd){grid-column:auto}
