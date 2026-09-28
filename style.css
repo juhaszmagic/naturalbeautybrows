@@ -286,3 +286,4 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
   .cmp-v::before{content:attr(data-l);display:block;font-family:var(--head);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--taupe);margin-bottom:4px}
   .cmp-note{padding:24px 22px}
 }
+@media(max-width:960px){.split.imgfirst .text{order:1}}
