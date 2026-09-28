@@ -264,3 +264,6 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 @media(max-width:960px){.quotes3{grid-template-columns:1fr}}
 @media(max-width:600px){.hero .hero-text{padding-bottom:7vh}.hero-cta{margin-top:18px}.hero-cta .btn{padding:12px 30px;font-size:.8rem}}
 .quotes3 .quote:last-child:nth-child(odd){grid-column:auto}
+.hero-cta{margin-top:22px}
+.hero-cta .btn{padding:10px 26px;font-size:.74rem;letter-spacing:.18em}
+@media(max-width:600px){.hero-cta{margin-top:16px}.hero-cta .btn{padding:9px 22px;font-size:.7rem}}
