@@ -325,3 +325,4 @@ img[src$="spray-tan.jpg"]{object-position:right 62%}
 .lb-c{pointer-events:none}
 .lb button{z-index:2}
 @media(max-width:600px){.lb-c{bottom:22px}}
+.tile img[src$="spray-tan-3.jpg"]{object-position:45% 55%}
